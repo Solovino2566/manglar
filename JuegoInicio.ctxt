@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=JuegoInicio
+comment0.text=\r\n\ Clase\ JuegoInicio\r\n\ \r\n\ Representa\ el\ escenario\ inicial\ del\ juego\ en\ el\ entorno\ Greenfoot,\r\n\ donde\ el\ jugador\ debe\ limpiar\ un\ manglar\ contaminado,\ eliminando\ basura\r\n\ para\ generar\ peces\ saludables\ y\ restaurar\ el\ ecosistema.\r\n\ Controla\ la\ creaci\u00F3n\ de\ basura\ aleatoria,\ su\ eliminaci\u00F3n,\ el\ conteo\ de\ estad\u00EDsticas\r\n\ y\ la\ transici\u00F3n\ hacia\ el\ escenario\ de\ manglar\ limpio.\r\n
+comment1.params=musicaJuego
+comment1.target=JuegoInicio(greenfoot.GreenfootSound)
+comment1.text=\r\n\ Constructor\ de\ la\ clase\ JuegoInicio.\r\n\ \r\n\ Inicializa\ el\ escenario\ con\ un\ manglar\ sucio,etiquetas\ de\ conteo,uso\ de\ las\ esttucturas\ de\ datos,\r\n\ sonidos,\ im\u00E1genes\ de\ fondo\ y\ genera\ una\ cantidad\ inicial\ de\ basura\ aleatoria.\r\n\ \r\n\ @param\ musicaJuego\ Sonido\ de\ fondo\ que\ se\ reproducir\u00E1\ en\ bucle\ durante\ la\ partida.\r\n
+comment2.params=cantidad
+comment2.target=void\ generarBasuraAleatoria(int)
+comment2.text=\r\n\ Genera\ basura\ aleatoria\ en\ el\ escenario\ y\ la\ almacena\ en\ la\ pila\ del\ manglar.\r\n\ \r\n\ @param\ cantidad\ Cantidad\ de\ objetos\ Basura\ a\ generar.\r\n
+comment3.params=basura
+comment3.target=void\ eliminarBasura(Basura)
+comment3.text=\r\n\ Elimina\ una\ basura\ seleccionada\ del\ escenario\ y\ la\ a\u00F1ade\ en\ su\ pila\ correspondiente.\r\n\ \r\n\ Utiliza\ una\ pila\ temporal\ para\ conservar\ el\ orden\ de\ pilaManglar\ al\ retirar\ el\ objeto.\r\n\ Genera\ un\ pez\ saludable\ cada\ 5\ basuras\ eliminadas.\r\n
+comment4.params=
+comment4.target=void\ generarPezSaludable()
+comment4.text=\r\n\ Genera\ un\ pez\ saludable\ aleatorio\ en\ una\ posici\u00F3n\ libre\ del\ escenario.\r\n\ Actualiza\ los\ conteos\ y\ reproduce\ sonido\ de\ aparici\u00F3n.\r\n
+comment5.params=
+comment5.target=void\ started()
+comment5.text=\r\n\ Activa\ la\ reproducci\u00F3n\ en\ bucle\ de\ la\ m\u00FAsica\ de\ fondo.\r\n
+comment6.params=
+comment6.target=void\ stopped()
+comment6.text=\r\n\ Pausa\ la\ reproducci\u00F3n\ de\ m\u00FAsica\ de\ fondo.\r\n
+numComments=7

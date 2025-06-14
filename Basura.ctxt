@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Basura
+comment0.text=\r\n\ Clase\ Basura\ \u2014\ representa\ un\ objeto\ de\ basura.\r\n\ Cada\ objeto\ de\ basura\ tiene\ una\ imagen\ y\ un\ tipo\ (org\u00E1nica\ o\ inorg\u00E1nica).\r\n
+comment1.params=imagen\ tipo
+comment1.target=Basura(java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getTipo()
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ M\u00E9todo\ act\ \u2014\ se\ ejecuta\ en\ cada\ ciclo\ del\ escenario.\r\n\ Detecta\ si\ se\ hizo\ clic\ sobre\ el\ objeto\ de\ basura\ y\ i\ es\ as\u00ED,\r\n\ llama\ al\ m\u00E9todo\ eliminarBasura\ del\ mundo\ (JuegoInicio)\ para\ eliminarla.\r\n
+numComments=4

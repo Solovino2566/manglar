@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=BotonInicio
+comment0.text=\r\n\ Clase\ BotonInicio\ \u2014\ representa\ el\ bot\u00F3n\ de\ inicio\ de\ la\ presentaci\u00F3n\ del\ juego.\r\n\ Al\ hacer\ clic\ en\ este\ bot\u00F3n,\ se\ detiene\ la\ m\u00FAsica\ del\ men\u00FA,\ inicia\ la\ m\u00FAsica\ del\ juego\ de\ manglar\ sucio\r\n\ y\ cambia\ al\ mundo\ JuegoInicio(manglarsucio).\r\n
+comment1.params=musicaMenu
+comment1.target=BotonInicio(greenfoot.GreenfootSound)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ animarBoton()
+numComments=4

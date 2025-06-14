@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Label
+comment0.text=\r\n\ Clase\ Label\ \u2014\ representa\ una\ etiqueta\ de\ texto\ num\u00E9rico\ en\ pantalla.\r\n\ Permite\ mostrar\ y\ actualizar\ valores\ enteros\ como\ texto\ dentro\ del\ escenario.\r\n
+comment1.params=value\ fontSize
+comment1.target=Label(int,\ int)
+comment1.text=\r\n\ Constructor\ de\ la\ clase\ Label.\r\n\ @param\ value\ Valor\ inicial\ que\ mostrar\u00E1\ la\ etiqueta.\r\n\ @param\ fontSize\ Tama\u00F1o\ de\ la\ fuente\ para\ mostrar\ el\ n\u00FAmero.\r\n
+comment2.params=value
+comment2.target=void\ setValue(int)
+comment2.text=\r\n\ M\u00E9todo\ setValue\ -\ actualiza\ el\ valor\ mostrado\ en\ la\ etiqueta.\r\n\ Crea\ una\ nueva\ imagen\ con\ el\ nuevo\ valor\ y\ la\ reemplaza.\r\n\ @param\ value\ Nuevo\ valor\ entero\ a\ mostrar\ la\ etiqueta.\r\n
+numComments=3

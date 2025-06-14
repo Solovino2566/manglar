@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Pez
+comment0.text=\r\n\ Clase\ Pez\ \u2014\ representa\ un\ pez\ en\ el\ escenario.\r\n\ Al\ crearse,\ carga\ una\ imagen\ recibida\ por\ par\u00E1metro\ y\ se\ le\ asigna\ al\ actor.\r\n
+comment1.params=imagenNombre
+comment1.target=Pez(java.lang.String)
+comment1.text=\r\n\ Constructor\ de\ la\ clase\ Pez.\r\n\ Crea\ un\ pez\ con\ una\ imagen\ espec\u00EDfica\ escalada.\r\n\ \r\n\ @param\ imagenNombre\ Nombre\ del\ archivo\ de\ imagen\ a\ asignar\ al\ pez.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getImagenNombre()
+comment2.text=\r\n\ M\u00E9todo\ getImagenNombre\ devuelve\ el\ nombre\ del\ archivo\ de\ la\ imagen\ asignado\ al\ pez.\r\n\ @return\ Nombre\ de\ la\ imagen\ que\ se\ asign\u00F3\ al\ actor\ pez.\r\n
+numComments=3

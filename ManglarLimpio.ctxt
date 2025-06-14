@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=ManglarLimpio
+comment0.text=\r\n\ Clase\ ManglarLimpio\ \u2014\ representa\ un\ mundo\ en\ Greenfoot\ que\ muestra\r\n\ el\ escenario\ limpio\ con\ peces\ y\ un\ conteo\ de\ basuras\ recolectadas.\r\n
+comment1.params=conteoOrganica\ conteoInorganica\ totalOrganica\ totalInorganica\ totalPecesSaludables\ pecesSaludables\ conteoPeces
+comment1.target=ManglarLimpio(java.util.HashMap,\ java.util.HashMap,\ int,\ int,\ int,\ java.util.ArrayList,\ java.util.HashMap)
+comment1.text=\r\n\ Constructor\ ManglarLimpio\r\n\ @param\ totalOrganica\ total\ de\ basura\ org\u00E1nica.\r\n\ @param\ totalInorganica\ total\ de\ basura\ inorg\u00E1nica.\r\n\ @param\ totalPecesSaludables\ total\ de\ peces\ saludables.\r\n\ @param\ pecesSaludables\ ArrayList\ con\ objetos\ Pez\ saludables\ a\ mostrar.\r\n\ @param\ pilaOrganica\ pila\ de\ basura\ org\u00E1nica\ recolectada.\r\n\ @param\ pilaInorganica\ pila\ de\ basura\ inorg\u00E1nica\ recolectada.\r\n
+comment2.params=
+comment2.target=void\ started()
+comment2.text=\r\n\ M\u00E9todo\ que\ se\ ejecuta\ autom\u00E1ticamente\ cuando\ el\ escenario\ comienza.\r\n\ Se\ encarga\ de\ iniciar\ la\ m\u00FAsica\ de\ fondo\ en\ bucle.\r\n
+comment3.params=
+comment3.target=void\ stopped()
+comment3.text=\r\n\ M\u00E9todo\ que\ se\ ejecuta\ autom\u00E1ticamente\ cuando\ se\ detiene\ el\ escenario.\r\n\ Se\ encarga\ de\ pausar\ la\ m\u00FAsica\ de\ fondo.\r\n
+comment4.params=conteo\ x\ y
+comment4.target=void\ mostrarBasuras(java.util.HashMap,\ int,\ int)
+comment4.text=\r\n\ Muestra\ en\ pantalla\ las\ im\u00E1genes\ de\ los\ tipos\ de\ basura\ y\ su\ cantidad\ correspondiente.\r\n\r\n\ @param\ conteo\ HashMap\ que\ contiene\ como\ clave\ el\ nombre\ de\ la\ imagen\ (ruta\ del\ archivo)\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ y\ como\ valor\ la\ cantidad\ de\ ese\ tipo\ de\ basura\ recolectada.\r\n\ @param\ x\ Posici\u00F3n\ horizontal\ inicial\ para\ mostrar\ las\ fichas\ de\ basura.\r\n\ @param\ y\ Posici\u00F3n\ vertical\ inicial\ para\ mostrar\ las\ fichas\ de\ basura.\r\n
+comment5.params=conteoPeces\ x\ y
+comment5.target=void\ mostrarPeces(java.util.HashMap,\ int,\ int)
+comment5.text=\r\n\ Muestra\ en\ pantalla\ las\ im\u00E1genes\ de\ los\ peces\ saludables\ recolectados\ y\ su\ cantidad.\r\n\r\n\ @param\ conteoPeces\ HashMap\ que\ contiene\ como\ clave\ el\ nombre\ de\ la\ imagen\ (\ laa\ ruta\ del\ archivo)\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ y\ como\ valor\ la\ cantidad\ de\ peces\ saludables\ generados.\r\n\ @param\ x\ Posici\u00F3n\ horizontal\ inicial\ para\ mostrar\ las\ fichas\ de\ peces.\r\n\ @param\ y\ Posici\u00F3n\ vertical\ inicial\ para\ mostrar\ las\ fichas\ de\ peces.\r\n
+comment6.params=totalOrganica\ totalInorganica\ totalPecesSaludables
+comment6.target=void\ mostrarTotales(int,\ int,\ int)
+comment6.text=\r\n\ Muestra\ en\ pantalla\ los\ totales\ de\ basura\ org\u00E1nica,\ inorg\u00E1nica\ y\ de\ peces\ saludables\ recolectados.\r\n\r\n\ @param\ totalOrganica\ Cantidad\ total\ de\ basura\ org\u00E1nica\ recolectada.\r\n\ @param\ totalInorganica\ Cantidad\ total\ de\ basura\ inorg\u00E1nica\ recolectada.\r\n\ @param\ totalPecesSaludables\ Cantidad\ total\ de\ peces\ saludables\ generados.\r\n
+numComments=7
